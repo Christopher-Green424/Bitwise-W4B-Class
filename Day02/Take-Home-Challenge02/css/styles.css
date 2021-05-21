@@ -1,0 +1,31 @@
+* {
+    background-color: #181818;
+}
+
+div {
+    min-width: 100px;
+    min-height: 100px;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 10px 10px 10px 10px;
+}
+
+.divRed {
+    background-color: #f0652b;
+    display: inline-block;
+}
+
+.divGreen {
+    background-color: #7db606;
+    display: inline-block;
+}
+
+.divBlue {
+    background-color: #05a1e8;
+    display: inline-block;
+}
+
+.divYellow {
+    background-color: #f7b408;
+    display: inline-block;
+}
