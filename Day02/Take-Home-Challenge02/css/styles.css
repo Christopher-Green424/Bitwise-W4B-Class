@@ -5,9 +5,9 @@
 div {
     min-width: 100px;
     min-height: 100px;
-    width: 10vmax;
-    height: 10vmax;
-    margin: 10px 10px 10px 10px;
+    width: 20vmax;
+    height: 20vmax;
+    margin: 1vmax 1vmax 1vmax 1vmax;
 }
 
 .divRed {
