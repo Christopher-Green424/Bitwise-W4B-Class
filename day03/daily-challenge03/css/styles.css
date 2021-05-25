@@ -1,0 +1,21 @@
+* {
+    background-color: #181818;
+}
+
+div {
+    min-width: 100px;
+    min-height: 100px;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 0vmax 0vmax 0vmax 0vmax;
+}
+
+.divWhite {
+    background-color: White;
+    display: inline-block;
+}
+
+.divNull {
+    background-color: none;
+    display: inline-block;
+}
