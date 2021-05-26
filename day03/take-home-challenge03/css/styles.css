@@ -1,0 +1,44 @@
+* {
+    background-color: black;
+}
+
+.navBar {
+    background-color: #282a35;
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 2vmin;
+    border: 2px solid #555;
+}
+
+.navItem {
+    background-color: #282a35;
+    display: inline;
+    padding: 2vmin;
+}
+
+.navBarText {
+    background-color: #282a35;
+    display: inline;
+    color: white;
+}
+
+.navLink {
+    background-color: #282a35;
+}
+
+a.navLink:link {
+    color: white;
+}
+
+a.navLink:visited {
+    color: gray;
+}
+
+a.navLink:hover {
+    color: #04aa6d;
+}
+
+a.navLink:active {
+    color: #0000cd;
+}
