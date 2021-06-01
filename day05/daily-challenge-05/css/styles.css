@@ -1,0 +1,46 @@
+.headerClass {
+    background-color: yellow;
+    text-align: center;
+}
+
+.navClass {
+    background-color: orange;
+    text-align: center;
+}
+
+.bodyColumn {
+    margin: 2vh 10vw 5vh 10vw;
+}
+
+.columnOne {
+    float: left;
+    width: 35vw;
+}
+
+.columnTwo {
+    float: right;
+    width: 35vw;
+}
+
+.sectionClass {
+    color: white;
+    background-color: blue;
+    margin: 10px 10px 10px 10px;
+}
+
+.articleClass {
+    background-color: red;
+    margin: 10px 10px 10px 10px;
+}
+
+.asideClass {
+    color: white;
+    background-color: purple;
+    margin: 10px 10px 10px 10px;
+}
+
+.footerClass {
+    background-color: seagreen;
+    clear:left;
+    text-align: center;
+}
