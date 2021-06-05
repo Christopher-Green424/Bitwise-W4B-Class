@@ -1,5 +1,10 @@
 body {
+    background-image: url(../img/mountainsBackground.jpg);
     background-color: rgb(126, 126, 126);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .headerClass {
@@ -28,6 +33,7 @@ body {
 }
 
 /* commented out cuz it looks UGLY lol */
+/* QUESTION - can I change color on hover on visited? */
 /* #navBar a:visited {
     color: rgb(255, 0, 191);
 } */
@@ -36,7 +42,7 @@ body {
     background-color: #aa6204;
     color: white;
 }
-/*--------------- NAVBAR SECTION END -------------*/
+/*--------------- NAVBAR SECTION END --------------*/
 .content {
     padding: 16px;
 }
@@ -66,6 +72,7 @@ body {
 }
 
 .sectionClass {
+    font-size: 17px;
     color: white;
     background-color: blue;
     background-image: linear-gradient(rgb(141, 141, 141), rgb(44, 44, 44));
@@ -75,6 +82,7 @@ body {
 }
 
 .articleClass {
+    font-size: 17px;
     color: white;
     background-color: red;
     background-image: linear-gradient(rgb(141, 141, 141), rgb(44, 44, 44));
@@ -84,6 +92,7 @@ body {
 }
 
 .asideClass {
+    font-size: 17px;
     color: white;
     background-color: purple;
     background-image: linear-gradient(rgb(141, 141, 141), rgb(44, 44, 44));
@@ -94,6 +103,6 @@ body {
 
 .footerClass {
     background-color: seagreen;
-    clear:left;
+    clear: both;
     text-align: center;
 }
