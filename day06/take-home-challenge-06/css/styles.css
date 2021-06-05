@@ -34,9 +34,13 @@ body {
 
 /* commented out cuz it looks UGLY lol */
 /* QUESTION - can I change color on hover on visited? */
-/* #navBar a:visited {
+#navBar a:visited {
     color: rgb(255, 0, 191);
-} */
+}
+
+#navBar a:visited:hover {
+    color: black;
+}
 
 #navBar a.active {
     background-color: #aa6204;
