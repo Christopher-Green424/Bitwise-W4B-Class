@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* Column example 2 */
+
+.column1a {
+    float: left;
+    width: 50%;
+    /* margin: 25px; */
+    padding: 10px;
+    height: 300px;
+    background-color: grey;
+    border: white;
+  }
+
+.column1b {
+    float: left;
+    width: 50%;
+    /* margin: 25px; */
+    padding: 10px;
+    height: 300px;
+    background-color: orange;
+    border: white;
+}
+  
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Column example 2 */
+
+.column2a {
+    float: left;
+    width: 33.33%;
+    /* margin: 25px; */
+    padding: 10px;
+    height: 300px;
+    background-color: teal
+    border: white;
+}
+
+.column2b {
+    float: left;
+    width: 33.33%;
+    /* margin: 25px; */
+    padding: 10px;
+    height: 300px;
+    background-color: rgb(170, 46, 46);
+    border: white;
+}
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Column example 3 */
+
+.column3a {
+    float: left;
+    width: 25%;
+    /* margin: 25px; */
+    padding: 10px;
+    height: 300px;
+    background-color: green;
+    border: white;
+}
+
+.column3b {
+    float: left;
+    width: 25%;
+    /* margin: 25px; */
+    padding: 10px;
+    height: 300px;
+    background-color: gold;
+    border: white;
+}
+  
+.row3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column1a {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column1b {
+      width: 100%;
+    }
+}
+
+/* Column 2 responsives */
+
+@media screen and (max-width: 600px) {
+    .column2a {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column2b {
+      width: 100%;
+    }
+}
+
+/* Column 3 responsives */
+
+@media screen and (max-width: 600px) {
+    .column3a {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column3b {
+      width: 100%;
+    }
+}
